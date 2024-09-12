@@ -7,10 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="C:\\neworkspace\\BDDFramework_Aug\\src\\test\\java\\com\\bdd\\feature",
-glue="com.bdd.stepdefinition",
-tags= {"@test"},
-monochrome=true,
-dryRun=true)
+glue="com.bdd.stepdefinition")
 public class TestRunner {
 
 }
